@@ -6,7 +6,7 @@ class Class extends Component {
     rollno: 1033453,
   };
 
-  changeEvent = () => {
+  changeEvent =()=> {
     this.setState({
       name: "Satya Narayan",
       rollno: 448,

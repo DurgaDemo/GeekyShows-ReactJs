@@ -14,7 +14,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Class from './TypeChecking/Class'
 
 
-import Class from './state/Class'
+// import Class from './state/Class'
+// import Setstate from './state/Setstate'
+
+
+// import Class from'./eventhandling/Class'
+// import Function from'./eventhandling/Function'
+// import Event from './eventhandling/Event'
 function App() {
   return (
     <div className="App">
@@ -36,8 +42,17 @@ function App() {
       </div>
        
        <div>
-        <Class/>
+        {/* <Class/> */}
+        {/* <Setstate roll={1033453} roll1={134}/> */}
        </div>
+
+         <div>
+          
+          {/* <Class roll={1033453}/> */}
+          {/* <Function/> */}
+          {/* <Event/> */}
+         </div>
+
     </div>
   );
 }
