@@ -19,8 +19,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 // import Class from'./eventhandling/Class'
-// import Function from'./eventhandling/Function'
+// import Function from'./eventhandling/Function'   
 // import Event from './eventhandling/Event'
+
+// import Usestate from './hooks/Usestate'
+    // import Useeffect from './hooks/Useeffect'
+ 
+
 function App() {
   return (
     <div className="App">
@@ -52,7 +57,12 @@ function App() {
           {/* <Function/> */}
           {/* <Event/> */}
          </div>
-
+          
+          <div>
+            {/* <Usestate/> */}
+            {/* <Useeffect/> */}
+        
+          </div>
     </div>
   );
 }
