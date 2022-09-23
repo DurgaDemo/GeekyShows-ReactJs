@@ -23,10 +23,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Event from './eventhandling/Event'
 
 // import Usestate from './hooks/Usestate'
-    // import Useeffect from './hooks/Useeffect'
+// import Useeffect from './hooks/Useeffect'
  
+// import Entry from "./conditional/Entry";
+
+// import Inline from './css/Inline'
+// import Inline1 from "./css/Inline1";
+// import External from './css/External'
+   import Module from "./css/Module";
+
+// import List from './list/List'
+// import List1 from './list/List1'
+// import Function from './list/Function'
+//  import Props from './list/Props'
+// import State from './list/State'
+ 
+// import Class from './keys/Class'
+
 
 function App() {
+  // const arr=[1,2,3,4]
   return (
     <div className="App">
 
@@ -61,8 +77,30 @@ function App() {
           <div>
             {/* <Usestate/> */}
             {/* <Useeffect/> */}
-        
           </div>
+
+          {/* <Entry consumer={false}/> */}
+
+         <div>
+         {/* <Inline/> */}
+         {/* <Inline1/> */}
+         {/* <External/> */}
+          <Module/>
+         </div>
+         
+          <div>
+          {/* <List/> */}
+         {/* <List1/> */}
+         {/* <Function/> */}
+         {/* <Props numbers={arr}/> */}
+         {/* <State/> */}
+          </div>  
+            
+            {/* <Class/> */}
+
+
+         
+
     </div>
   );
 }
